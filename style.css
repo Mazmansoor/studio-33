@@ -11,6 +11,22 @@ body {
   line-height: 1.6;
 }
 
+.page-header {
+  margin-bottom: 24px;
+}
+
+.back-link {
+  display: inline-block;
+  color: #e6e6eb;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.back-link:hover {
+  opacity: 1;
+}
+
 .container {
   max-width: 760px;
   margin: 0 auto;
@@ -42,6 +58,25 @@ h2 {
 
 .manifesto p {
   margin-bottom: 24px;
+}
+
+.origin-block {
+  margin-top: 64px;
+}
+
+.origin-block p {
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.story-points {
+  list-style: none;
+  padding-left: 0;
+}
+
+.story-points li {
+  margin-bottom: 14px;
+  opacity: 0.9;
 }
 
 .what-we-make ul {
