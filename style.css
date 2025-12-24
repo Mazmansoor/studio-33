@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0e0e11;
+  color: #e6e6eb;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  letter-spacing: 0.5px;
+}
+
+.tagline {
+  margin-top: 12px;
+  font-size: 1.1rem;
+  opacity: 0.75;
+}
+
+section {
+  margin-top: 72px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.7;
+}
+
+.manifesto p {
+  margin-bottom: 24px;
+}
+
+.what-we-make ul {
+  list-style: none;
+}
+
+.what-we-make li {
+  margin-bottom: 12px;
+  opacity: 0.85;
+}
+
+footer {
+  margin-top: 120px;
+  font-size: 0.85rem;
+  opacity: 0.5;
+}
